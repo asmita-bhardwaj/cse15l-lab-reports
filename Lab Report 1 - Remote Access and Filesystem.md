@@ -26,7 +26,7 @@ The terminal should look something like this now:
   - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 
-Below is what such commands would run like, remotely through the VS Code terminal:
+Below is what such commands would run like:
 ![Image](TryingCommands.jpg)
  
 
