@@ -24,6 +24,8 @@ The terminal should look something like this now:
   - cd ~c
   - ls -lat
   - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
+
 Below is what such commands would run like, remotely through the VS Code terminal:
 ![Image](TryingCommands.jpg)
  
