@@ -14,10 +14,17 @@
 - Next, Open a terminal on the VS Code App (access Terminal → New Terminal through menu). Your screen should now look like this:
 ![Image](VSCodeTerminal.jpg)
 - In the first line, after the '$', feed in the command `ssh cs15lwi23zzz@ieng6.ucsd.edu`. Replace 'zzz' with letters from your specific account and press enter 
-- The terminal should ask for the account's password. Fill in the password and press enter once again
+- The terminal should ask for the account's password. Fill in the password and press enter once again.
 The terminal should look something like this now:
 ![Image](VSCodeAfterPass.jpg)
 
+## Step 3: Trying Some Commands
 
+- Explore running some of the following commands in the terminal:
+  - cd ~c
+  - ls -lat
+  - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+Below is what such commands would run like, remotely through the VS Code terminal:
+![Image](TryingCommands.jpg)
+ 
 
-3. Trying some commands
