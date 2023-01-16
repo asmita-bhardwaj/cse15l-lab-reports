@@ -29,4 +29,7 @@ The terminal should look something like this now:
 Below is what such commands would run like:
 ![Image](TryingCommands.jpg)
  
+ 
+ 
+ Lastly, to exit the remote server in your terminal, run the command `exit`
 
