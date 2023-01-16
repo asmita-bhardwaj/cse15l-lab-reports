@@ -6,7 +6,7 @@
 - Follow downloading and set up instructions for particular operating system (OSX or Windows)
 - To verify that VS Code has succesfully been installed, open a window on the app. Your screen should look similar to the image below. 
 
-![Image](installed VS Code.png)
+![Image](VSCodeInstall.jpg)
 
 2. Remotely Connecting
 
