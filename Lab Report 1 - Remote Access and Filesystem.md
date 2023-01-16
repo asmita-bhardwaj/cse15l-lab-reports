@@ -1,6 +1,6 @@
-# Week 1 Lab Report
+# Lab Report 1
 
-## Step 1: Intall VS Code
+## Step 1: Install VS Code
 
 - Visit the [Visual Studio Code website](https://code.visualstudio.com)
 - Follow downloading and set up instructions for particular operating system (OSX or Windows)
