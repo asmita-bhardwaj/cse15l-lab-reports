@@ -21,9 +21,9 @@ The terminal should look something like this now:
 ## Step 3: Trying Some Commands
 
 - Explore running some of the following commands in the terminal:
-  - cd ~c
-  - ls -lat
-  - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  - cd ~ : useful for changing the current working directory to ~, the home directory. The home directory is where all of a user's paths are stored.
+  - ls -lat : ls is useful for listing all the files and folders in the specified path. 
+  - cat /home/linux/ieng6/cs15lwi23/public/hello.txt : this command is useful in printing the contents of the file hello.txt. after the command 'cat', a path must be specified to identify which file's contents should be printed.
  
 
 Below is what such commands would run like:
