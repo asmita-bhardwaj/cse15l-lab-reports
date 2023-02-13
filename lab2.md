@@ -132,3 +132,7 @@ The test above passed the method, as shown in the screenshot below:
     	   }
     	   return newArray;
   	}
+
+
+The failure-inducing input for the `reverseInPlace(int[] arr)` method was any array that was no a mirror image sequence. To debug, I changed the for loop condition to arr.length/2 and added a int value that stored the previous value of the array and then replaced the values at the other end of th array with that previous value. 
+The failure-inducing input for the `reversed(int[] arr)` method was any non-zero array. To debug, I switched the arr and newArray. Specifically, I replaced arr[i] with newArray[i] and newArray[arr.length - i - 1] with arr[arr.length - i - 1].
