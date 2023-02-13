@@ -96,3 +96,21 @@ Below is the respective symptom of the test written above:
 The test above passed the method, as shown in the screenshot below:
 
 ![Image](ReversedSymptomNFT.jpg)
+
+**Fixing File `ArrayExamples.java`**
+
+***Original Code for both methods***
+
+	static void reverseInPlace(int[] arr) {
+    	   for(int i = 0; i < arr.length; i += 1) {
+      	      arr[i] = arr[arr.length - i - 1];
+    	   }
+  	}
+
+  	static int[] reversed(int[] arr) {
+    	   int[] newArray = new int[arr.length];
+    	   for(int i = 0; i < arr.length; i += 1) {
+      	      arr[i] = newArray[arr.length - i - 1];
+    	   }
+    	   return arr;
+  	}
