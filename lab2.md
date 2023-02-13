@@ -31,14 +31,16 @@
 
 I chose the `ArrayExamples.java` file to debug.
 
-**Failure-Inducing Input & Respective Symptom**
+Method #1: `reverseInPlace(int[] arr)`
 
-![Image](TestReverseInPlace.jpg)
+    **Failure-Inducing Input & Respective Symptom**
+
+    ![Image](TestReverseInPlace.jpg)
 
 
-![Image](ReverseInPlaceSymptom.jpg)
+    ![Image](ReverseInPlaceSymptom.jpg)
 
-**Non-Failure-Inducing Input & Respective Symptom**
+    **Non-Failure-Inducing Input & Respective Symptom**
 
-![Image](ReverseInPlaceSymptomNFT.jpg)
+    ![Image](ReverseInPlaceSymptomNFT.jpg)
 
