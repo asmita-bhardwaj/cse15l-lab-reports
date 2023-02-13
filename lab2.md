@@ -94,3 +94,5 @@ Below is the respective symptom of the test written above:
 	}
 	
 The test above passed the method, as shown in the screenshot below:
+
+![Image](ReversedSymptomNFT.jpg)
