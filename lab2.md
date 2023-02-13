@@ -33,7 +33,7 @@ I chose the `ArrayExamples.java` file to debug.
 
 **Method #1: `reverseInPlace(int[] arr)`**
 
-*Failure-Inducing Input & Respective Symptom*
+**Failure-Inducing Input & Respective Symptom**
 
 One failure-inducing input for the reverseInPlace method is: 
 
@@ -52,7 +52,7 @@ Below is the respective output or symptom of the test written above:
 	Caused by: java.lang.AssertionError: expected:[3] but was:[10]
 	 ... 29 more
 
- *Non-Failure-Inducing Input & Respective Symptom*
+ **Non-Failure-Inducing Input & Respective Symptom**
 
 	@Test
 	public void testReverseInPlace(){
