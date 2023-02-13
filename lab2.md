@@ -136,3 +136,8 @@ The test above passed the method, as shown in the screenshot below:
 
 The failure-inducing input for the `reverseInPlace(int[] arr)` method was any array that was no a mirror image sequence. To debug, I changed the for loop condition to arr.length/2 and added a int value that stored the previous value of the array and then replaced the values at the other end of th array with that previous value. 
 The failure-inducing input for the `reversed(int[] arr)` method was any non-zero array. To debug, I switched the arr and newArray. Specifically, I replaced arr[i] with newArray[i] and newArray[arr.length - i - 1] with arr[arr.length - i - 1].
+
+
+## Part 3
+
+I learnt more about web servers and URLs. More specifically, I learnt how to create a web server and understood the different components of a URL. I'm completely new to computer science and this is only the second computer science course I've taken, so I find it very interesting to undertstand the basics of the technology and logistics behind things we use everyday. I also learnt more about testing and JUnit in particular, I find that to be very useful and am hoping to continue to use it later on in my coding career. Heading in the direction of software engineering, learning how to debug code is also a very useful skill I'm grateful I learnt in labs 2 and 3. 
