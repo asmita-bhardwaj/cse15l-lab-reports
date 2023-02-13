@@ -46,8 +46,8 @@ Below is the respective output or symptom of the test written above:
  *Non-Failure-Inducing Input & Respective Symptom*
 
 	@Test
-	public voide testReverseInPlace(){
-	int[] input1 = { 2, 1, 2 };
-	ArrayExamples.reverseInPlace(input1);
-	assertArrayEquals(new int[]{ 2, 1, 2 }, input1);
+	public void testReverseInPlace(){
+		int[] input1 = { 2, 1, 2 };
+		ArrayExamples.reverseInPlace(input1);
+		assertArrayEquals(new int[]{ 2, 1, 2 }, input1);
 	}
