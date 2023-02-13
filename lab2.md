@@ -24,3 +24,15 @@
 - The method that is called in the link above is the `handleRequest(URI url)` method. 
 - The only argument in the `handRequest` method is the url of the server.
 - The value of the `string` variable is updated from "hello" to "hello how are you" with "how are you" printed on the next line through the "add-message" command in the argument.
+
+
+
+## Part 2
+
+I chose the `ArrayExamples.java` file to debug.
+
+**Failure-Inducing Input & Respective Symptom**
+
+
+**Non-Failure-Inducing Input & Respective Symptom**
+
