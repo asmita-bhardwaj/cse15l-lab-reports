@@ -7,7 +7,7 @@
 ![Image](StringServerCode.jpg)
 
 
-Screenshot #1:
+*Screenshot #1:*
 
 ![Image](ss1.jpg)
 
@@ -16,7 +16,7 @@ Screenshot #1:
 - The value of `string` changes and "hello" is added to the String variable through the "add-message" command in the argument.
 
 
-Screenshot #2:
+*Screenshot #2:*
 
 ![Image](ss2.jpg)
 
