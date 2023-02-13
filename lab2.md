@@ -61,4 +61,6 @@ Below is the respective output or symptom of the test written above:
 	    assertArrayEquals(new int[]{ 2, 1, 2 }, input1);
 	}
 	
-	
+The test above passed the method with as shown in the screenshot below:
+
+![Image](ReverseInPlaceSymptomNFT.jpg)
