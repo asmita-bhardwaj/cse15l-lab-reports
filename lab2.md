@@ -31,7 +31,7 @@
 
 I chose the `ArrayExamples.java` file to debug.
 
-Method #1: `reverseInPlace(int[] arr)`
+## Method #1: `reverseInPlace(int[] arr)`
 
    **Failure-Inducing Input & Respective Symptom**
 
