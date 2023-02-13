@@ -7,7 +7,7 @@
 ![Image](StringServerCode.jpg)
 
 
-*Screenshot #1:*
+**Screenshot #1:**
 
 ![Image](ss1.jpg)
 
@@ -17,7 +17,7 @@
 
 
 
-*Screenshot #2:*
+**Screenshot #2:**
 
 ![Image](ss2.jpg)
 
