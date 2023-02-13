@@ -5,3 +5,5 @@
 Code for StringServer:
 
 ![Image](StringServerCode.jpg)
+
+'URL Handler'
