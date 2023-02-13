@@ -2,5 +2,6 @@
 
 ## Part 1
 
-CODE:
+Code for StringServer:
+
 ![Image](StringServerCode.jpg)
