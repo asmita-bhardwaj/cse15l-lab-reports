@@ -35,12 +35,20 @@ I chose the `ArrayExamples.java` file to debug.
 
 *Failure-Inducing Input & Respective Symptom*
 
-   ![Image](TestReverseInPlace.jpg)
+One failure-inducing input for the reverseInPlace method is: 
 
+      
+
+Below is the respective output or symptom of the test written above:
 
    ![Image](ReverseInPlaceSymptom.jpg)
 
  *Non-Failure-Inducing Input & Respective Symptom*
 
-   ![Image](ReverseInPlaceSymptomNFT.jpg)
+         @Test 
+	         public void testReverseInPlace() {
+            int[] input1 = { 2, 1, 2 };
+            ArrayExamples.reverseInPlace(input1);
+            assertArrayEquals(new int[]{ 2, 1, 2 }, input1);
+	         }
 
