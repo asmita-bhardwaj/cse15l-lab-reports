@@ -52,7 +52,7 @@ Below is the respective output or symptom of the test written above:
 	Caused by: java.lang.AssertionError: expected:[3] but was:[10]
 	 ... 29 more
 
- ***Non-Failure-Inducing Input & Respective Symptom***
+ ***Non-Failure-Inducing Input***
 
 	@Test
 	public void testReverseInPlace(){
