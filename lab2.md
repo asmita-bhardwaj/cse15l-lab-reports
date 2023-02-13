@@ -2,7 +2,7 @@
 
 ## Part 1
 
-*Code for StringServer:*
+**Code for StringServer:**
 
 ![Image](StringServerCode.jpg)
 
