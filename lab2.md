@@ -45,7 +45,7 @@ One failure-inducing input for the reverseInPlace method is:
 	}
       
 
-Below is the respective output or symptom of the test written above:
+Below is the respective symptom of the test written above:
 
 	arrays first differed at element [0]; expected:[3] but was:[10]
  	at ArrayTests.testReverseInPlace(ArrayTests.java:9)
@@ -61,6 +61,36 @@ Below is the respective output or symptom of the test written above:
 	    assertArrayEquals(new int[]{ 2, 1, 2 }, input1);
 	}
 	
-The test above passed the method with as shown in the screenshot below:
+The test above passed the method, as shown in the screenshot below:
 
 ![Image](ReverseInPlaceSymptomNFT.jpg)
+
+
+**Method #2: `reversed(int[] arr)`**
+
+***Failure-Inducing Input & Respective Symptom***
+
+One failure-inducing input for the reversed method is: 
+
+	@Test
+	public void testReversed() {
+	   int[] input1 = { 2, 7, 9 };
+	   assertArrayEquals(new int[]{ 2, 7, 9 }, ArrayExamples.reversed(input1));
+	}
+
+Below is the respective symptom of the test written above:
+
+	arrays first differed at element [0]; expected:[2] but was:[0]
+ 	at ArrayTests.testReversed(ArrayTests.java:16)
+	Caused by: java.lang.AssertionError: expected:[2] but was:[0]
+ 	... 29 more
+	
+***Non-Failure-Inducing Input***
+
+	@Test
+	public void testReversed() {
+	   int[] input1 = { 0, 0 };
+	   assertArrayEquals(new int[]{ 0, 0 }, ArrayExamples.reversed(input1));
+	}
+	
+The test above passed the method, as shown in the screenshot below:
