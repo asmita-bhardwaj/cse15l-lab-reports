@@ -36,7 +36,7 @@ I chose the `ArrayExamples.java` file to debug.
 ![Image](TestReverseInPlace.jpg)
 
 
-![Image](TestReverseInPlaceSymptom.jpg)
+![Image](ReverseInPlaceSymptom.jpg)
 
 **Non-Failure-Inducing Input & Respective Symptom**
 
