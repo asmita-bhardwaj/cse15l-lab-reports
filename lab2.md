@@ -114,3 +114,21 @@ The test above passed the method, as shown in the screenshot below:
     	   }
     	   return arr;
   	}
+
+***Debugged Codes for both methods***
+
+	static void reverseInPlace(int[] arr) {
+    	   for(int i = 0; i < (arr.length/2); i += 1) {
+      	      arr[i] = arr[arr.length - i - 1];
+	      int prevValue = arr[i];
+	      arr[arr.length - i - 1] = prevValue;
+    	   }
+  	}
+
+  	static int[] reversed(int[] arr) {
+    	   int[] newArray = new int[arr.length];
+    	   for(int i = 0; i < arr.length; i += 1) {
+	      newArray[i] = arr[arr.length - i - 1];
+    	   }
+    	   return newArray;
+  	}
