@@ -47,7 +47,10 @@ One failure-inducing input for the reverseInPlace method is:
 
 Below is the respective output or symptom of the test written above:
 
-   ![Image](ReverseInPlaceSymptom.jpg)
+	arrays first differed at element [0]; expected:[3] but was:[10]
+ 	at ArrayTests.testReverseInPlace(ArrayTests.java:9)
+	Caused by: java.lang.AssertionError: expected:[3] but was:[10]
+	 ... 29 more
 
  *Non-Failure-Inducing Input & Respective Symptom*
 
