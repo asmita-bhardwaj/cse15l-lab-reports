@@ -33,6 +33,12 @@ I chose the `ArrayExamples.java` file to debug.
 
 **Failure-Inducing Input & Respective Symptom**
 
+![Image](TestReverseInPlace.jpg)
+
+
+![Image](TestReverseInPlaceSymptom.jpg)
 
 **Non-Failure-Inducing Input & Respective Symptom**
+
+![Image](ReverseInPlaceSymptomNFT.jpg)
 
