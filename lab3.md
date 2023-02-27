@@ -4,7 +4,7 @@
 
 I chose to research on the command `grep`, where I will explore the following command-line arguments:
 - `-n`
-- `- C num`
+- `-v`
 - `-r`
 - `-i`
 
