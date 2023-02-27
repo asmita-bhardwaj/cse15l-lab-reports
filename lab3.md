@@ -11,12 +11,15 @@ I chose to research on the command `grep`, where I will explore the following co
 I researched on each command from the GNU manual page, https://www.gnu.org/software/grep/manual/grep.html#Command_002dline-Options. 
 
 ## `-c`
+
 `grep -c "word" file` displays the number of lines in the specific file in which "word" exists.
+
 **EXAMPLE 1**
-  **Input**
-    Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
-  **Output**
-    16
+
+**Input**
+          Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
+**Output**
+          16
     
 
 
