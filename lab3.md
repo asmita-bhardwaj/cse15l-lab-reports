@@ -18,17 +18,6 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **Input**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
-
-**Output**
-
-	16
-	
-
-**EXAMPLE 2**
-
-**Input**
-
 	Asmitas-MacBook-Air:written_2 asmita$ grep -c "To" */*/*/**
 
 **Output**
@@ -78,6 +67,19 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	non-fiction/OUP/Rybczynski/ch1.txt:5
 	non-fiction/OUP/Rybczynski/ch2.txt:4
 	non-fiction/OUP/Rybczynski/ch3.txt:5
+
+
+**EXAMPLE 2**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
+
+**Output**
+
+	16
+	
+
 
 
 ## `-n`
