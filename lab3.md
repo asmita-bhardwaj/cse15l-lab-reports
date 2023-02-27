@@ -78,8 +78,6 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 **Output**
 
 	16
-	
-
 
 
 ## `-n`
@@ -108,7 +106,32 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	a land constantly ravaged by so many invasions, it is claimed to be the oldest in Hungary. Here you will ﬁnd the tomb of King András 
 	(Andrew) I who, in 1055, founded the Benedictine Abbey that once stood on this site. The church itself is being renovated at present, 
 	but even through the tarpaulins you can glimpse its rich Baroque carvings and decorative ornamentation.
+	
 
+**EXAMPLE 2**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -n "tourist" */*/*/**
+
+**Output**
+
+	non-fiction/OUP/Rybczynski/ch2.txt:25:The Kennedy Center was criticized from the start, but the dazzling décor 
+	of Radio City Music Hall, which opened in 1932—in the midst of the Depression—guaranteed its immediate success. 
+	Radio City became the most famous theater in the country, the Rockettes the most famous chorus line, “live from Radio City” 
+	the most famous dateline. In the late 1950s, when I visited New York City as a boy with my parents, Radio City was still 
+	one of the obligatory tourist sites. What I don’t remember is ever learning about Radio City as an architecture student. 
+	According to the reductive standards of my International Style teachers, its opulent materials, its glowing colors, and 
+	its very theatricality disqualified Radio City as architecture (never mind that it was a technologically sophisticated “machine 
+	for entertainment”). It was dismissed as kitsch. By 1978, Radio City had lost its glamour, and the owners of Rockefeller 
+	Center decided to demolish the aging hall. Thanks to preservationists’ efforts, the hall was saved from demolition and granted 
+	landmark status. Now, 20 years later, freshened by a masterful restoration, it is once again acclaimed as a masterpiece.
+	non-fiction/OUP/Rybczynski/ch2.txt:32:Walpole, the Fourth Earl of Orford, spent his entire life enlarging his house. He 
+	eventually added a cloister, a gallery, and a tower. As he was an author and a public figure who corresponded with a wide 
+	circle of literary and artistic friends throughout Europe, the Gothic design of Strawberry Hill became famous among connoisseurs. 
+	(It also became a tourist attraction, much to Walpole’s chagrin.) Architects and their clients now saw medieval buildings as 
+	sources of inspiration, just as they had once looked to ancient Greece and Rome. The Gothic style became an established alternative 
+	for building country houses, and pointed arches appeared in décor and furniture. Gothic was “in” again.
 
 ## `-r`
 
