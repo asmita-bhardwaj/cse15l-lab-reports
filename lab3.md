@@ -23,6 +23,17 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 **Output**
 
 	16
+	
+
+**EXAMPLE 2**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -c "History" travel_guides/berlitz2/Bali-History.txt
+
+**Output**
+
+	1
     
 
 
