@@ -17,9 +17,12 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 **EXAMPLE 1**
 
 **Input**
-          Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
+
 **Output**
-          16
+
+	16
     
 
 
