@@ -42,3 +42,9 @@ Below is the terminal when running the nano command as well as the edited versio
   
 
 ## Step 5: Running the tests, demonstrating that they now succeed
+  
+      Keys Pressed: <up><up><up><up><enter>, <up><up><up><up><enter>
+ 
+Since I recently run the tests I simply pressed the up buttonn four times before reaching the proper commands while both compiling and running, then I pressed enter. The results of the tests are below:
+  
+  ![Image](successfull.jpg)
