@@ -68,6 +68,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	non-fiction/OUP/Rybczynski/ch2.txt:4
 	non-fiction/OUP/Rybczynski/ch3.txt:5
 
+In the example above we can see how the command line argument `grep -c string directory` can be used to search a directory for a specific string and return the number of lines in which the string is used for each file within the directory. 
 
 **EXAMPLE 2**
 
@@ -79,6 +80,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 	16
 
+The second example above shows us how the command line argument `grep -c string file` can be used for specific files, producing a number that represents how many lines the string is used in in that particular file.
 
 ## `-n`
 
@@ -107,6 +109,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	(Andrew) I who, in 1055, founded the Benedictine Abbey that once stood on this site. The church itself is being renovated at present, 
 	but even through the tarpaulins you can glimpse its rich Baroque carvings and decorative ornamentation.
 	
+The example above shows us how the command line argument `grep -n string file` can be used for specific files, printing the linenumbers that represent how many lines the string is used in as well as that full line.
 
 **EXAMPLE 2**
 
@@ -132,6 +135,8 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	(It also became a tourist attraction, much to Walpole’s chagrin.) Architects and their clients now saw medieval buildings as 
 	sources of inspiration, just as they had once looked to ancient Greece and Rome. The Gothic style became an established alternative 
 	for building country houses, and pointed arches appeared in décor and furniture. Gothic was “in” again.
+
+The second example above shows us how the command line argument `grep -c string directory` can be used to produce the line number as well as line for each file that contains the string in the whole directory.
 
 ## `-r`
 
@@ -171,6 +176,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	have a practiced line and can be pretty persuasive, so it pays to have a sense of humor — or a few words of Spanish so you can join 
 	in the banter.
 
+The example above shows us how the command line argument `grep -r string` can be used to produce the line for each file that contains the string in the whole directory.
 
 **EXAMPLE 2**
 
@@ -214,6 +220,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	revolutionaries, were the prime suspects. Not all Bermudians, however, were sympathetic to the rebel cause, as privateers continued to 
 	capture and ransack American ships.
 
+The second example above shows us again how the command line argument `grep -r string` can be used to produce the line for each file that contains the string in the whole directory.
 
 ## `-i`
 
@@ -243,6 +250,8 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	portrays the story of the settlement of the lake and the development of its people, including their agriculture and ﬁshing and its 
 	fauna and flora, in a lively exhibition.
 	
+The example above shows us how the command line argument `grep -i string file` can be used to produce the line for a specific file that contains the string, regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
+	
 **EXAMPLE 2**
 
 **Command Line Argument**
@@ -253,3 +262,5 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 	Claude Monet’s glorious floral and water gardens are much more attractive than the rather artificially restored house. 
 	The painter lived at Giverny from 1883 to 1926 and painted the gardens many times, especially the water lilies.
+	
+The second example above once again shows us how the command line argument `grep -i string file` can be used to produce the line for a specific file that contains the string, regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
