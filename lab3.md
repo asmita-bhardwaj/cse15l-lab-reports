@@ -18,7 +18,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **Command Line Argument**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -r -c "To" */*/*/**
+	Asmitas-MacBook-Air:written_2 asmita$ grep -c "To" */*/*/**
 
 **Output**
 
