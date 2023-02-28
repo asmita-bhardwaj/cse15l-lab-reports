@@ -12,7 +12,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-c`
 
-`grep -c "word" file` displays the number of lines in the specific file in which "word" exists.
+`grep -c string file` displays the number of lines in the specific file in which 'string' exists.
 
 **EXAMPLE 1**
 
@@ -82,7 +82,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-n`
 
-`grep -n "word" file` displays the line number in the specific file in which "word" exists along with the full line.   
+`grep -n string file` displays the line number in the specific file in which 'string' exists along with the full line.   
 
 **EXAMPLE 1**
 
@@ -135,7 +135,85 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-r`
 
-`grep -r` is a command line argument that uses recursion while searching through repositories. This command line is not required to be run on a specific file, but instead has the ability to search every file within a directory, as well as the directory itself.  
+`grep -r string directory` is a command line argument that uses recursion while searching through repositories. This command line is not required to be run on a specific file, but instead has the ability to search every file within a directory, as well as the directory itself.  
+
+**EXAMPLE 1**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r persuasive
+
+**Output**
+
+	./non-fiction/OUP/Kauffman/ch5.txt:The eorts following Hume to understand the meaning of ethical assertions have been long, twisted, arduous. 
+	Following the dictates of the logical positivists of the Vienna Circle that only those statements capable of verification were meaningful, 
+	philosophers as famous as G. E. Moore came to wonder if ethical assertions were merely emotive utterances. “It is wrong to kill.” Becomes, 
+	“Agggah!” Does the positivist argument seem persuasive? It has always amused me that the core injunction of the logical positivists, “only 
+	those statements that are empirically verifiable are meaningful,” is itself not empirically verifiable. One is reminded of something about
+	hoisting and petards. 
+	./non-fiction/OUP/Kauffman/ch6.txt:Wittgenstein wrote persuasively that the same systematic diYculty was lodged in attempts to reduce one 
+	language game to another, for example, from a description of a legal event to a description in terms of mere human actions to a description
+	in terms of physical events. As we noted earlier, legal descriptions involve a web of concepts concerning guilt, innocence, responsibility,
+	evidence, admissible procedure that are absent from a description of human actions outside of the legal framework. And descriptions of human 
+	actions = and, a fortiori, descriptions of the doings of autonomous agents, even bacteria acting on their own behalf to get dinner = seem 
+	to involve a diVerent language game than mere descriptions in terms of physical events.
+	./non-fiction/OUP/Fletcher/ch6.txt:This case would have been persuasive precedent for the butchers but for two hurdles that counsel had 
+	to negotiate. The first was to brand the New Orleans slaughtering franchise a “monopoly.” That proved to be problematic. The dissenting 
+	judges had no trouble concluding that requiring the butchers to use, for a fee, a single slaughterhouse was as “much a monopoly as 
+	though the act had granted to the company the exclusive privilege of buying and selling the animals themselves.”13 But the majority, 
+	led by Justice Miller, balked. The Court was willing to accept the label of “monopoly” but denied “the assertion that the butchers 
+	are [thereby] deprived of the right to labor in their occupation.”14 
+	./travel_guides/berlitz2/Cancun-WhereToGo.txt:There is only one settlement, the capital, on Cozumel, San Miguel de Cozumel; it’s a 
+	bustling town chock-full of souvenir shops, duty-free emporiums, bars, and assorted cafés and restaurants. If you arrive on the island by 
+	ferry from the mainland, you’ll be dropped off directly opposite the heart of the downtown area, Plaza del Sol, also called the zócalo. 
+	This large, tree-lined square is where everyone meets for coffee, or lunch at one of the cafés nearby. Several streets surrounding the 
+	square are traffic-free, and you can stroll at your leisure among the stores selling T-shirts, pottery, onyx, and silver. The storeowners 
+	have a practiced line and can be pretty persuasive, so it pays to have a sense of humor — or a few words of Spanish so you can join 
+	in the banter.
+
+
+**EXAMPLE 2**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r conclusive
+
+
+**Output**
+
+	./non-fiction/OUP/Berk/ch1.txt:Furthermore, no conclusive evidence exists for the assertion that the most consequential 
+	environment for children’s development is the peer group rather than the family. It is based on an array of selective and equivocal 
+	ﬁndings, mustered to convince readers that parenting eects are conﬁned to how children behave in parents’ presence and do not 
+	extend beyond the home. I will show repeatedly in this book that just the opposite is so—that parenting practices have much to do with 
+	children’s competence at language and communication; sensitivity to others’ feelings and needs; capacity to get along with others within 
+	and beyond the family; achievement in school; and guiding values, beliefs, and attitudes.
+	./non-fiction/OUP/Kauffman/ch8.txt:But what of real cells? We have no conclusive evidence, yet an abundance of telling hints. 
+	If I am not yet entirely convinced and if I am  as I am  biased, I nevertheless become increasingly confident that cells, and probably 
+	communities of cells, do live in the ordered regime near the edge of chaos. Not only does the evidence point this way, but cells should 
+	live near the edge of chaos. Why? As remarked already, the intuition is simple. Being autonomous agents, cells must, as individuals 
+	living in communities, make the maximum number of reliable discriminations possible and act on them reliably, without “trembling hands.” 
+	Just inside the edge of chaos seems the ideal place.
+	./non-fiction/OUP/Kauffman/ch8.txt:Darwin is correct about contemporary life, and presumably about ancient life, based on the record. 
+	In fact, for current life forms, seven decades of hard work by geneticists, working with organisms as disparate as mouse, fruit fly, 
+	maize, yeast, and many other eukaryotes, demonstrates conclusively that most mutations are of minor eect. For example, the fruit fly, 
+	Drosophila melanogaster, upon which I worked for twelve years, has the abdominal bristles alluded to above. A modest number of mutants 
+	exist that slightly increase or slightly decrease the number of abdominal bristles. The flies don’t seem to mind, at least in the 
+	odd security of my and other biologists’ laboratories.
+	./travel_guides/berlitz1/HistoryMadrid.txt:        inconclusively for six years. Finally, with the help of the British
+	./travel_guides/berlitz2/PuertoRico-History.txt:Politically, recent history is less conclusive. In 1951 the island’s 
+	voters approved a new constitution (still in effect) forming a commonwealth between the United States and the “free associated 
+	state” of Puerto Rico (though even the commencement ceremony was marred by violent demonstrations by radicals). As a result 
+	Puerto Ricans now elect their own governor, legislature, and local officials, and send a non-voting representative to the US Congress. 
+	In turn, Washington runs the postal, customs, and immigration services, handles defense and foreign relations, and sends dollars 
+	— particularly useful in times of crisis, such as after hurricanes.
+	./travel_guides/berlitz2/Bermuda-history.txt:On a dark night in mid-August 1775, several boats sailed into the dark harbor 
+	of Tobacco Bay near Fort St. Catherine and, in a daring and dangerous raid, stole 100 kegs of gunpowder from the main ordnance store. 
+	Once safely on the boats, the ammunition made its way to the rebel forces. To this day nobody knows if this was part of an orchestrated 
+	campaign or simply a spur-of-the-moment action by local sympathizers. But Bermuda got its grain. The British authorities were 
+	horrified but could find no conclusive proof of guilt. The Tuckers, a prominent family with many connections to the American 
+	revolutionaries, were the prime suspects. Not all Bermudians, however, were sympathetic to the rebel cause, as privateers continued to 
+	capture and ransack American ships.
+
 
 ## `-i`
 
