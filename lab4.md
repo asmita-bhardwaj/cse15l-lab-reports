@@ -39,3 +39,6 @@ Below is the terminal when running the nano command as well as the edited versio
   ![Image](nano.jpg)
   
   ![Image](nanofull.jpg)
+  
+
+## Step 5: Running the tests, demonstrating that they now succeed
