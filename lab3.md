@@ -12,7 +12,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-c`
 
-`grep -c string file` displays the number of lines in the specific file in which 'string' exists.
+`grep -c string file/directory` displays the number of lines in the specific file in which `string` exists.
 
 **EXAMPLE 1**
 
@@ -82,7 +82,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-n`
 
-`grep -n string file` displays the line number in the specific file in which 'string' exists along with the full line.   
+`grep -n string file` displays the line number in the specific file in which `string` exists along with the full line.   
 
 **EXAMPLE 1**
 
@@ -217,7 +217,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-i`
 
-`grep -i string file` is a command line argument that displays sentences that include the string. The search is case insensitive, meaning that "historical" is the percieved as the same as "Historical".
+`grep -i string file` is a command line argument that displays sentences that include the `string`. The search is case insensitive, meaning that "historical" is the percieved as the same as "Historical".
 
 **EXAMPLE 1**
 
