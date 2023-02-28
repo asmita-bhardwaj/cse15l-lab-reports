@@ -48,3 +48,9 @@ Below is the terminal when running the nano command as well as the edited versio
 Since I recently run the tests I simply pressed the up buttonn four times before reaching the proper commands while both compiling and running, then I pressed enter. The results of the tests are below:
   
   ![Image](successfull.jpg)
+
+  
+  ## Commiting and pushing the resulting change to my Github account
+  
+
+  ![Image](laststep.jpg)
