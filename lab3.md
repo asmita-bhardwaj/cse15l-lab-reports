@@ -141,7 +141,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **Input**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -r persuasive
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r "persuasive"
 
 **Output**
 
@@ -176,7 +176,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **Input**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -r conclusive
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r "conclusive"
 
 
 **Output**
