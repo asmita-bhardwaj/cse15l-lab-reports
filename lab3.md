@@ -242,3 +242,13 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	Continuing out of Keszthely to the southwest on Highway 71, you reach another good historical collection. The Balaton Museum 
 	portrays the story of the settlement of the lake and the development of its people, including their agriculture and ﬁshing and its 
 	fauna and flora, in a lively exhibition.
+	
+**EXAMPLE 2**
+
+**Input**
+	Asmitas-MacBook-Air:written_2 asmita$ grep -i "flora" travel_guides/berlitz2/Paris-WhereToGo.txt
+
+**Output**
+
+	Claude Monet’s glorious floral and water gardens are much more attractive than the rather artificially restored house. 
+	The painter lived at Giverny from 1883 to 1926 and painted the gardens many times, especially the water lilies.
