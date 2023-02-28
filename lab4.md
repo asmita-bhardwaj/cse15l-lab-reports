@@ -26,3 +26,16 @@ Then, I used the Ctrl-R command to search for the command to run by typing "java
 Below is the terminal after running the tests:
   
 ![Image](runningtests.jpg)
+
+## Step 4: Editing the code file to fix the failing test
+
+    First, I typed in nano ListExamples.java and pressed <enter>
+    Keys Pressed: <Ctrl-W><result.add><enter>, <Ctrl-E><left><left><lefte><delete><delete><delete>
+    Then I scrolled to the end of the file to the last while loop and:
+    Keys Pressed: <down><down><right><right><right><right><right><right><right><right><delete><2>, <Ctrl-O><enter>, <Ctrl-X>
+  
+Below is the terminal when running the nano command as well as the edited version of the file to fix the failing test:
+  
+  ![Image](nano.jpg)
+  
+  ![Image](nanofull.jpg)
