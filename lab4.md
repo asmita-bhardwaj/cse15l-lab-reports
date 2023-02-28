@@ -51,6 +51,9 @@ Since I recently run the tests I simply pressed the up buttonn four times before
 
   
   ## Commiting and pushing the resulting change to my Github account
+ 
+      Keys Pressed: <git add ListExamples.java><enter>, <git commit -m "file is updated"><enter>
   
+  The results are showcased below:
 
   ![Image](laststep.jpg)
