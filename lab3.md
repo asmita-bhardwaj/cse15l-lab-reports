@@ -217,3 +217,28 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-i`
 
+`grep -i string file` is a command line argument that displays sentences that include the string. The search is case insensitive, meaning that "historical" is the percieved as the same as "Historical".
+
+**EXAMPLE 1**
+
+**Input**
+
+	Asmitas-MacBook-Air:written_2 asmita$ grep -i "historical" travel_guides/berlitz2/Budapest-WhereoGo.txt
+	
+**Output**
+
+	Historically, Obuda is the oldest quarter of Buda, centred on the site of Aquincum, the capital of the Roman province of 
+	Lower Pannonia. Nowadays it’s a nightmare of Soviet town-planning, with heavy trafﬁc constantly rumbling past on the main 
+	northern highway out of Budapest. Amid this unlikely setting, however, there are some major Roman remains to be discovered.
+	Andrássy út ends in an outburst of pomp at Heroes’ Square (Hosök tere), a huge open space housing the Millenary Monument, built 
+	on the thousandth anniversary of the Magyar conquest. Surmounting all is a 36-metre (118-foot) column supporting the ﬁgure of the 
+	Archangel Gabriel, who, according to legend, appeared in a dream of St. Stephen’s and offered him Hungary’s first crown. Around 
+	the pedestal, on horseback, sit Prince Arpád and the Magyar tribal chiefs, while ﬂanking the column is a semi-circular 
+	colonnade with statues of historical ﬁgures, starting with King Stephen. In front of the statuary is the Tomb of the Unknown Soldier.
+	Next door to the Abbey Church, housed in the old priory, is the Tihany Historical Museum (closed November to February). This 
+	museum features regional folk items and art, three small rooms where Hungary’s last king, Károly IV, lived for ﬁve days in 1921, 
+	and, in the basement, an atmospheric lapidarium containing Roman remains. In front of the church, King András is commemorated in 
+	a typically offbeat Imre Varga statue, wrapped in an aluminium cloak.
+	Continuing out of Keszthely to the southwest on Highway 71, you reach another good historical collection. The Balaton Museum 
+	portrays the story of the settlement of the lake and the development of its people, including their agriculture and ﬁshing and its 
+	fauna and flora, in a lively exhibition.
