@@ -16,7 +16,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 1**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -c "To" */*/*/**
 
@@ -71,7 +71,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 2**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -c "Athens" travel_guides/berlitz2/Athens-WhatToDo.txt
 
@@ -86,7 +86,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 1**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -n "traditional" travel_guides/berlitz2/Budapest-WhereoGo.txt
 
@@ -110,7 +110,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 2**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -n "tourist" */*/*/**
 
@@ -139,7 +139,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 1**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -r "persuasive"
 
@@ -174,7 +174,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 2**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -r "conclusive"
 
@@ -221,7 +221,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 **EXAMPLE 1**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -i "historical" travel_guides/berlitz2/Budapest-WhereoGo.txt
 	
@@ -245,7 +245,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	
 **EXAMPLE 2**
 
-**Input**
+**Command Line Argument**
 
 	Asmitas-MacBook-Air:written_2 asmita$ grep -i "flora" travel_guides/berlitz2/Paris-WhereToGo.txt
 
