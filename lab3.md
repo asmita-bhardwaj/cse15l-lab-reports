@@ -12,13 +12,13 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 
 ## `-c`
 
-`grep -c string file/directory` displays the number of lines in the specific file in which `string` exists.
+`grep -c "string" file/directory` displays the number of lines in the specific file in which `"string"` exists. My source for this specific command line argument is: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 **EXAMPLE 1**
 
 **Command Line Argument**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -c "To" */*/*/**
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r -c "To" */*/*/**
 
 **Output**
 
@@ -68,7 +68,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 	non-fiction/OUP/Rybczynski/ch2.txt:4
 	non-fiction/OUP/Rybczynski/ch3.txt:5
 
-In the example above we can see how the command line argument `grep -c string directory` can be used to search a directory for a specific string and return the number of lines in which the string is used for each file within the directory. 
+In the example above we can see how the command line argument `grep -c "string" directory` can be used to search a directory for a specific string, in this case "To", and return the number of lines in which the string is used for each file within the directory. 
 
 **EXAMPLE 2**
 
@@ -80,11 +80,11 @@ In the example above we can see how the command line argument `grep -c string di
 
 	16
 
-The second example above shows us how the command line argument `grep -c string file` can be used for specific files, producing a number that represents how many lines the string is used in in that particular file.
+The second example above shows us how the command line argument `grep -c "string" file` can be used for specific files, producing a number that represents how many lines the string, in this case "Athens", is used in in that particular file.
 
 ## `-n`
 
-`grep -n string file` displays the line number in the specific file in which `string` exists along with the full line.   
+`grep -n "string" file` displays the line number in the specific file in which `string` exists along with the full line. My source for this specific command line argument is: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/ .
 
 **EXAMPLE 1**
 
@@ -109,7 +109,7 @@ The second example above shows us how the command line argument `grep -c string 
 	(Andrew) I who, in 1055, founded the Benedictine Abbey that once stood on this site. The church itself is being renovated at present, 
 	but even through the tarpaulins you can glimpse its rich Baroque carvings and decorative ornamentation.
 	
-The example above shows us how the command line argument `grep -n string file` can be used for specific files, printing the linenumbers that represent how many lines the string is used in as well as that full line.
+The example above shows us how the command line argument `grep -n string file` can be used for specific files, printing the linenumbers that represent how many lines the string, in this case "traditional", is used in as well as that full line.
 
 **EXAMPLE 2**
 
@@ -136,11 +136,11 @@ The example above shows us how the command line argument `grep -n string file` c
 	sources of inspiration, just as they had once looked to ancient Greece and Rome. The Gothic style became an established alternative 
 	for building country houses, and pointed arches appeared in décor and furniture. Gothic was “in” again.
 
-The second example above shows us how the command line argument `grep -c string directory` can be used to produce the line number as well as line for each file that contains the string in the whole directory.
+The second example above shows us how the command line argument `grep -c string directory` can be used to produce the line number as well as line for each file that contains the string, in this case "tourist", in the whole directory.
 
 ## `-r`
 
-`grep -r string directory` is a command line argument that uses recursion while searching through repositories. This command line is not required to be run on a specific file, but instead has the ability to search every file within a directory, as well as the directory itself.  
+`grep -r string directory` is a command line argument that uses recursion while searching through repositories. This command line is not required to be run on a specific file, but instead has the ability to search every file within a directory, as well as the current directory and respective sub directories. My source for this specific command line argument is: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/ .
 
 **EXAMPLE 1**
 
@@ -176,13 +176,13 @@ The second example above shows us how the command line argument `grep -c string 
 	have a practiced line and can be pretty persuasive, so it pays to have a sense of humor — or a few words of Spanish so you can join 
 	in the banter.
 
-The example above shows us how the command line argument `grep -r string` can be used to produce the line for each file that contains the string in the whole directory.
+The example above shows us how the command line argument `grep -r string` can be used to produce the line for each file that contains the string, in this case "persuasive", in the whole directory.
 
 **EXAMPLE 2**
 
 **Command Line Argument**
 
-	Asmitas-MacBook-Air:written_2 asmita$ grep -r "conclusive"
+	Asmitas-MacBook-Air:written_2 asmita$ grep -r "conclusive" *
 
 
 **Output**
@@ -220,11 +220,11 @@ The example above shows us how the command line argument `grep -r string` can be
 	revolutionaries, were the prime suspects. Not all Bermudians, however, were sympathetic to the rebel cause, as privateers continued to 
 	capture and ransack American ships.
 
-The second example above shows us again how the command line argument `grep -r string` can be used to produce the line for each file that contains the string in the whole directory.
+The second example above shows us again how the command line argument `grep -r string` can be used to produce the line for each file that contains the string, in this case "conclusive" in the whole directory.
 
 ## `-i`
 
-`grep -i string file` is a command line argument that displays sentences that include the `string`. The search is case insensitive, meaning that "historical" is the percieved as the same as "Historical".
+`grep -i "string" FILE` is a command line argument that displays sentences that include the `string`. The search is case insensitive, meaning that "historical" is the percieved as the same as "Historical". My source for this specific command line argument is: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/ .
 
 **EXAMPLE 1**
 
@@ -250,7 +250,7 @@ The second example above shows us again how the command line argument `grep -r s
 	portrays the story of the settlement of the lake and the development of its people, including their agriculture and ﬁshing and its 
 	fauna and flora, in a lively exhibition.
 	
-The example above shows us how the command line argument `grep -i string file` can be used to produce the line for a specific file that contains the string, regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
+The example above shows us how the command line argument `grep -i "string" FILE` can be used to produce the line for a specific file that contains the string, in this case "historical", regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
 	
 **EXAMPLE 2**
 
@@ -263,4 +263,4 @@ The example above shows us how the command line argument `grep -i string file` c
 	Claude Monet’s glorious floral and water gardens are much more attractive than the rather artificially restored house. 
 	The painter lived at Giverny from 1883 to 1926 and painted the gardens many times, especially the water lilies.
 	
-The second example above once again shows us how the command line argument `grep -i string file` can be used to produce the line for a specific file that contains the string, regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
+The second example above once again shows us how the command line argument `grep -i "string" FILE` can be used to produce the line for a specific file that contains the string, in this case "flora", regardless of uppercase of lowercase. This command line argument makes searching for specific lines and words more convenient since it is case insensitive.
