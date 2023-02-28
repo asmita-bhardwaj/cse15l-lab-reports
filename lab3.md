@@ -246,6 +246,7 @@ I researched on each command from the GNU manual page, https://www.gnu.org/softw
 **EXAMPLE 2**
 
 **Input**
+
 	Asmitas-MacBook-Air:written_2 asmita$ grep -i "flora" travel_guides/berlitz2/Paris-WhereToGo.txt
 
 **Output**
