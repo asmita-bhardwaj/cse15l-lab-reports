@@ -9,7 +9,7 @@
   
 ## Step 2: Cloning my fork of the repository from my Github account
   
-Keys Pressed: <Ctrl-R><git><enter>
+Keys Pressed: <<Ctrl-R>><<git>><<enter>>
   
 I used the Ctrl-R command to search for the git cloning command by typing "git". Then, when I found the command I pressed enter. Below is the terminal after cloning the repository:
   
