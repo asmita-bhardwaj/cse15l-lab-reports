@@ -496,8 +496,20 @@ In the example above we can see how the command line argument,find  directory -t
 
 **Output**
 
-    <  >
-    
+    <empty>
     
 
+In the example above we can see how the command line argument,find  directory -name "filename" -delete, can be used to delete a certain file from a directory, in this case "Beijing-WhatToDo.txt". This is proved by using the find -name command line to find the same file after the -delete command line and having it return nothing, as the file no longeer exists. 
 
+**EXAMPLE 2**
+
+**Inputs**
+
+    Asmitas-MacBook-Air:written_2 asmita$ find travel_guides -name "Beijing-WheretToGo.txt" -delete
+    Asmitas-MacBook-Air:written_2 asmita$ find travel_guides -name "Beijing-WheretToGo.txt" 
+    
+**Output**
+
+    <empty>
+    
+In the example above we can see how the command line argument,find  directory -name "filename" -delete, can be used to delete a certain file from a directory, in this case "Beijing-WhereToGo.txt". This is proved by using the find -name command line to find the same file after the -delete command line and having it return nothing, as the file no longeer exists. 
