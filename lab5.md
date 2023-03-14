@@ -1,4 +1,6 @@
-# Lab Report 5: Researching Commands 
+# Lab Report 5: Doing Lab Report 3 For a Different Command (find)
+
+For this lab report, I've chosen to do the same exploration as lab report 3 for find instead of grep. 
 
 ## `find`
 
